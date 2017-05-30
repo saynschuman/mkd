@@ -12,7 +12,7 @@
   }
   header.header .top-header {
     height: auto;
-    padding: 20px 15px;
+    padding: 20px 0;
   }
   header.header .top-header .item.social {
     padding: 0;
@@ -25,14 +25,18 @@
     margin-top: 20px;
   }
   header.header .top-header .item.consult a {
-    padding: 14px 28px 11px;
+    padding: 0;
     display: block;
     border-radius: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   header.header .top-header .item.consult {
     border-radius: 23px;
     padding: 0;
-    width: 300px;
+    width: 250px;
+    height: 40px;
+    padding: 0;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
