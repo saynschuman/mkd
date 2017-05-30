@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Regular.ttf"); }
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url("../fonts/lato/Lato-Light.ttf"); }
+
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url("../fonts/lato/Lato-Bold.ttf"); }
+
+@font-face {
+  font-family: 'Lato-Medium';
+  src: url("../fonts/lato/Lato-Medium.ttf"); }
+
+@font-face {
+  font-family: 'Lato-Black';
+  src: url("../fonts/lato/Lato-Black.ttf"); }
+
+a {
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s; }
+  a:hover {
+    -webkit-transition: .3s;
+    transition: .3s; }
+
+.container {
+  width: 1170px;
+  display: block;
+  margin: auto;
+  font-family: Lato; }
+
+header.header .top-header {
+  height: 84px;
+  background-color: #3078c0; }
+  header.header .top-header .item {
+    display: inline-block;
+    padding: 0 28px;
+    float: right;
+    margin-top: 30px;
+    padding-top: 4px; }
+    header.header .top-header .item:first-child {
+      padding-top: 0; }
+    header.header .top-header .item.tel a {
+      color: #fff;
+      font-size: 26px;
+      font-family: 'Lato-Black';
+      display: block; }
+      header.header .top-header .item.tel a:hover {
+        opacity: .9; }
+    header.header .top-header .item.contacts {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px; }
+      header.header .top-header .item.contacts a {
+        text-decoration: underline;
+        color: #fff;
+        display: block;
+        margin-top: 3px; }
+        header.header .top-header .item.contacts a:hover {
+          text-decoration: none; }
+    header.header .top-header .item.consult {
+      background-color: rgba(238, 239, 239, 0.149);
+      -webkit-box-shadow: 0px 4px 9px 0px rgba(31, 100, 170, 0.004), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+              box-shadow: 0px 4px 9px 0px rgba(31, 100, 170, 0.004), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+      -webkit-border-radius: 23px;
+              border-radius: 23px;
+      padding: 0;
+      margin-top: 24px;
+      -webkit-transition: .3s;
+      transition: .3s; }
+      header.header .top-header .item.consult:hover {
+        background-color: rgba(238, 239, 239, 0.189);
+        -webkit-transition: .3s;
+        transition: .3s; }
+      header.header .top-header .item.consult a {
+        letter-spacing: 1px;
+        text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
+        color: #fff;
+        font-family: 'Lato-Bold';
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 14px 28px 11px;
+        display: block;
+        -webkit-border-radius: 23px;
+                border-radius: 23px; }
+    header.header .top-header .item.login-reg {
+      color: #fff;
+      background-color: #649ad0;
+      -webkit-border-radius: 23px;
+              border-radius: 23px;
+      padding: 10px 28px;
+      margin-top: 24px;
+      margin-left: 28px; }
+      header.header .top-header .item.login-reg a {
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        text-decoration: underline; }
+        header.header .top-header .item.login-reg a:hover {
+          text-decoration: none; }
+    header.header .top-header .item.social {
+      padding-right: 0; }
+    header.header .top-header .item ul {
+      padding: 0;
+      margin: 0; }
+      header.header .top-header .item ul li {
+        list-style: none;
+        display: inline-block; }
+        header.header .top-header .item ul li a {
+          padding: 0 14px;
+          color: #fff; }
+          header.header .top-header .item ul li a:hover {
+            opacity: .9; }
+
+header.header .middle-header .logo {
+  display: block;
+  height: 147px;
+  width: 149px;
+  background-image: url(../img/logo.png);
+  margin-top: -55px; }
