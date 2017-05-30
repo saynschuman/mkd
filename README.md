@@ -1,4 +1,4 @@
-# most
+# mkd
 ##### 
 
 ### Requirenments
@@ -13,7 +13,6 @@ MIT
 
 ###set 
 
-<!-- ####npm install -g jshint -->
 ####npm install
 ####npm install -g gulp
 ####gulp build
