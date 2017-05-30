@@ -84,4 +84,7 @@
   header.header .bottom-header nav ul li:last-child label {
     margin-left: -48px; }
   header.header .bottom-header .mobile-button {
-    display: block; } }
+    display: block; }
+  header.header .bottom-header {
+    background-image: none;
+    margin-bottom: 70px; } }
