@@ -549,3 +549,40 @@ header.header .bottom-header {
             .content main.homepage .reg li:last-child a:hover {
               background-color: #fff;
               color: #518bc8; }
+
+footer.footer {
+  background-image: url(../img/footer-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat; }
+  footer.footer .footer-menu {
+    padding: 95px 0;
+    margin: 0;
+    text-align: center; }
+    footer.footer .footer-menu li {
+      display: inline-block; }
+      footer.footer .footer-menu li:first-child a {
+        padding-left: 0; }
+      footer.footer .footer-menu li:last-child a {
+        padding-right: 0; }
+      footer.footer .footer-menu li a {
+        font-family: 'Lato-Black';
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 0 25px;
+        color: #fff;
+        position: relative; }
+        footer.footer .footer-menu li a::after {
+          content: '';
+          position: absolute;
+          height: 1px;
+          width: 0;
+          background-color: rgba(255, 255, 255, 0.5);
+          left: 0;
+          bottom: -5px;
+          -webkit-transition: .3s;
+          transition: .3s; }
+        footer.footer .footer-menu li a:hover::after {
+          width: 100%;
+          -webkit-transition: .3s;
+          transition: .3s; }
