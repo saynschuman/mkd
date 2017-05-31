@@ -168,7 +168,9 @@
   .documents .acts .item .line li:first-child {
     padding-left: 15px; }
   .documents .acts .show-more {
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+  .text {
+    padding: 15px; } }
 
 @media screen and (max-width: 700px) {
   .content main.homepage .acts .acts-body .item .line li:last-child {
