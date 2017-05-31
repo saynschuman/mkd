@@ -492,3 +492,60 @@ header.header .bottom-header {
         color: #fff;
         line-height: 1.7;
         padding: 20px 0; }
+      .content main.homepage .acts .acts-body .item {
+        display: block;
+        float: none;
+        width: 100%; }
+        .content main.homepage .acts .acts-body .item:nth-child(odd) {
+          background-color: #fbfbfb; }
+        .content main.homepage .acts .acts-body .item .line {
+          padding: 0;
+          margin: 0; }
+          .content main.homepage .acts .acts-body .item .line li {
+            display: inline-block;
+            float: left;
+            padding: 20px;
+            font-size: 13px;
+            color: #333;
+            font-family: 'Lato-Bold';
+            border-bottom: 1px solid #eee; }
+            .content main.homepage .acts .acts-body .item .line li:last-child {
+              float: right; }
+            .content main.homepage .acts .acts-body .item .line li:first-child {
+              padding: 14.5px 20px; }
+    .content main.homepage .reg {
+      padding: 0;
+      margin: 0;
+      margin-top: 40px; }
+      .content main.homepage .reg li {
+        display: inline-block; }
+        .content main.homepage .reg li span {
+          display: block;
+          color: #357bc1;
+          font-size: 13px;
+          font-family: 'Lato-Bold';
+          padding-top: 13px; }
+        .content main.homepage .reg li a {
+          display: block;
+          color: #357bc1;
+          font-size: 13px;
+          font-family: 'Lato-Bold'; }
+        .content main.homepage .reg li:last-child {
+          float: right; }
+          .content main.homepage .reg li:last-child a {
+            display: block;
+            background-color: #518bc8;
+            width: 196px;
+            padding: 14px 0;
+            color: #fff;
+            text-transform: uppercase;
+            font-family: 'Lato-Bold';
+            letter-spacing: 1px;
+            text-align: center;
+            border: 1px solid #518bc8;
+            -webkit-border-radius: 23px;
+                    border-radius: 23px;
+            font-size: 10px; }
+            .content main.homepage .reg li:last-child a:hover {
+              background-color: #fff;
+              color: #518bc8; }
