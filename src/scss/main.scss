@@ -650,6 +650,7 @@ footer.footer {
 		display: inline-block;
 		color: #c1c2c2;
 		font-family: 'Lato-Italic';
+		font-size: 13px;
 		&:last-child {
 			&::after {
 				display: none;
@@ -662,6 +663,7 @@ footer.footer {
 		a {
 			color: #c1c2c2;
 			font-family: 'Lato-Italic';
+			font-size: 13px;
 		}
 	}
 }
