@@ -114,6 +114,11 @@
     width: 100%;
     float: none;
   }
+  .content main {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
   .content main.homepage {
     width: 100%;
     float: none;
@@ -184,6 +189,38 @@
   }
   .content main.homepage .blue-subtitle {
     text-align: center;
+  }
+
+  // documents
+
+  .content main.documents {
+    padding: 0;
+  }
+  .documents .acts .item .line li {
+    display: block;
+    float: none;
+    padding: 10px;
+  }
+  .documents h1 {
+    padding: 0 15px;
+  }
+  .breadcrumbs li {
+    font-size: 12px;
+    display: inline-block;
+    padding: 12px 15px;
+    a {
+      font-size: 12px;
+      
+    }
+  }
+  .documents form {
+    margin-left: 15px;
+  }
+  .documents .acts .item .line li:first-child {
+    padding-left: 15px;
+  }
+  .documents .acts .show-more {
+    margin-bottom: 40px;
   }
 }
 

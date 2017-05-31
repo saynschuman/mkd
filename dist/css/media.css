@@ -94,6 +94,10 @@
   .content aside.right {
     width: 100%;
     float: none; }
+  .content main {
+    width: 100%;
+    float: none;
+    padding: 0; }
   .content main.homepage {
     width: 100%;
     float: none;
@@ -144,7 +148,27 @@
   .content main.homepage .acts {
     padding-top: 20px; }
   .content main.homepage .blue-subtitle {
-    text-align: center; } }
+    text-align: center; }
+  .content main.documents {
+    padding: 0; }
+  .documents .acts .item .line li {
+    display: block;
+    float: none;
+    padding: 10px; }
+  .documents h1 {
+    padding: 0 15px; }
+  .breadcrumbs li {
+    font-size: 12px;
+    display: inline-block;
+    padding: 12px 15px; }
+    .breadcrumbs li a {
+      font-size: 12px; }
+  .documents form {
+    margin-left: 15px; }
+  .documents .acts .item .line li:first-child {
+    padding-left: 15px; }
+  .documents .acts .show-more {
+    margin-bottom: 40px; } }
 
 @media screen and (max-width: 700px) {
   .content main.homepage .acts .acts-body .item .line li:last-child {
