@@ -87,4 +87,72 @@
     display: block; }
   header.header .bottom-header {
     background-image: none;
-    margin-bottom: 70px; } }
+    margin-bottom: 70px; }
+  .content aside.left {
+    width: 100%;
+    float: none; }
+  .content aside.right {
+    width: 100%;
+    float: none; }
+  .content main.homepage {
+    width: 100%;
+    float: none;
+    padding: 0; }
+  .content main.homepage .complects {
+    background-image: none;
+    height: auto; }
+  .content main.homepage .reg {
+    margin-bottom: 40px; }
+  .content {
+    padding: 0; }
+  .content main.homepage .thumb-home {
+    margin: 0 auto;
+    display: block;
+    float: none;
+    margin-top: 20px; }
+  .content main.homepage .home-title {
+    text-align: center;
+    padding-top: 20px; }
+  .content main.homepage .sub-title {
+    text-align: center;
+    padding-bottom: 20px; }
+  .content main.homepage p {
+    padding: 0 15px; }
+  .content main.homepage .more {
+    padding-left: 15px; }
+  .content main.homepage .reg {
+    padding: 0 15px; }
+  footer.footer .footer-menu li {
+    display: block; }
+    footer.footer .footer-menu li a {
+      padding: 15px 0;
+      display: block; }
+  .content aside .aside-block .block-body .thumb {
+    width: 200px; }
+  footer.footer .footer-menu {
+    padding: 0; }
+  .content main.homepage .blue-subtitle {
+    width: 100%; }
+  .content main.homepage .reg li {
+    display: block;
+    text-align: center; }
+    .content main.homepage .reg li:last-child {
+      float: none; }
+  .content main.homepage .reg li:last-child a {
+    margin: auto;
+    margin-top: 20px; }
+  .content main.homepage .acts {
+    padding-top: 20px; }
+  .content main.homepage .blue-subtitle {
+    text-align: center; } }
+
+@media screen and (max-width: 700px) {
+  .content main.homepage .acts .acts-body .item .line li:last-child {
+    float: left; } }
+
+@media screen and (max-width: 480px) {
+  .content aside .aside-block .block-body .thumb {
+    width: 100%; }
+  .content main.homepage .acts .acts-body .item .line li {
+    padding: 5px 20px;
+    border-bottom: none; } }

@@ -480,7 +480,8 @@ header.header .bottom-header {
       width: 100%;
       height: 516px;
       background-size: 100%;
-      background-position: center center; }
+      background-repeat: no-repeat;
+      background-position: top center; }
     .content main.homepage .acts {
       padding-top: 55px; }
       .content main.homepage .acts .acts-header {
