@@ -290,6 +290,11 @@ header.header {
 	padding: 37px 0;
 	aside {
 		.aside-block {
+			&:first-child {
+				.block-body {
+					padding: 14px 15px 30px;
+				}
+			}
 			.block-header {
 				background-color: #357bc1;
 				font-family: 'Lato-Black';
@@ -301,7 +306,7 @@ header.header {
 				letter-spacing: 1px;
 			}
 			.block-body {
-				padding: 14px 15px 30px;
+				padding: 30px 15px;
 				border: 1px solid #ebebeb;
 				.thumb {
 					height: 130px;
@@ -332,6 +337,19 @@ header.header {
 				}
 			}
 		}
+		.all {
+			background-color: #333;
+			font-family: 'Lato-Bold';
+			font-size: 13px;
+			text-align: center;
+			color: #fff;
+			padding: 15px 0;
+			text-decoration: underline;
+			display: block;
+			&:hover {
+				text-decoration: none;
+			}
+		}
 		&.left {
 			float: left;
 			width: 230px;
@@ -339,6 +357,63 @@ header.header {
 		&.right {
 			float: left;
 			width: 230px;
+			.all {
+				margin-bottom: 38px;
+				display: block;
+			}
+			.aside-block {
+				.block-body {
+					padding: 14px 15px 30px;
+					img {
+						height: 113px;
+						display: block;
+						margin: auto;
+						margin-top: 15px;
+					}
+					.expert-name {
+						font-size: 12px;
+						font-family: 'Lato-Black';
+						text-transform: uppercase;
+						display: block;
+						margin-top: 30px;
+						margin-bottom: 17px;
+					}
+					.text-preview {
+						font-family: "Lato";
+					}
+					.title {
+						color: #357bc1;
+						font-size: 13px;
+						font-family: 'Lato-Bold';
+						text-decoration: underline;
+						margin-bottom: 13px;
+						display: block;
+						&:hover {
+							text-decoration: none;
+						}
+					}
+					.appoint {
+						width: 124px;
+						display: block;
+						font-size: 11px;
+						text-transform: uppercase;
+						color: #fff;
+						background-color: #52bd8a;
+						text-align: center;
+						margin: auto;
+						padding: 14px 0;
+						box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+						border-radius: 23px;
+						margin-top: 30px;
+						border: 1px solid #52bd8a;
+						font-family: 'Lato-Bold';
+						&:hover {
+							background-color: #fff;
+							color: #52bd8a;
+						}
+					}
+				}
+			}
 		}
 	}
 	main {
