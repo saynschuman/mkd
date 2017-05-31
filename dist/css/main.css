@@ -441,3 +441,54 @@ header.header .bottom-header {
       text-decoration: underline; }
       .content main.homepage .more:hover {
         text-decoration: none; }
+    .content main.homepage .blue-title {
+      color: #357bc1;
+      font-size: 26px;
+      font-family: 'Lato-Black';
+      text-align: center; }
+    .content main.homepage .blue-subtitle {
+      font-size: 13px;
+      color: #333;
+      width: 393px;
+      display: block;
+      margin: auto;
+      text-align: justify;
+      margin-top: 23px;
+      margin-bottom: 33px; }
+    .content main.homepage .detailed {
+      color: #fff;
+      font-size: 10px;
+      text-transform: uppercase;
+      text-align: center;
+      background-color: #518bc8;
+      padding: 13px;
+      width: 138px;
+      display: block;
+      margin: auto;
+      -webkit-border-radius: 23px;
+              border-radius: 23px;
+      border: 1px solid #518bc8;
+      letter-spacing: 1px;
+      font-family: 'Lato-Bold'; }
+      .content main.homepage .detailed:hover {
+        background-color: #fff;
+        color: #518bc8; }
+    .content main.homepage .complects {
+      padding-top: 34px;
+      margin-top: 40px;
+      background-image: url(../img/complects.jpg);
+      width: 100%;
+      height: 516px;
+      background-size: 100%;
+      background-position: center center; }
+    .content main.homepage .acts {
+      padding-top: 55px; }
+      .content main.homepage .acts .acts-header {
+        font-family: 'Lato-Black';
+        font-size: 12px;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: #357bc1;
+        color: #fff;
+        line-height: 1.7;
+        padding: 20px 0; }
