@@ -206,7 +206,7 @@
   .faq .questions li.active span::after {
     right: 15px; }
   .faq .questions li.active span {
-    padding-right: 30px; } }
+    padding-right: 40px; } }
 
 @media screen and (max-width: 700px) {
   .content main.homepage .acts .acts-body .item .line li:last-child {

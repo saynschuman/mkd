@@ -1070,7 +1070,8 @@ footer.footer {
   .faq .questions li.active span {
     color: #357bc1;
     background-color: #f5f3f3;
-    position: relative; }
+    position: relative;
+    padding-right: 60px; }
     .faq .questions li.active span::after {
       content: '';
       border: 7px solid transparent;
