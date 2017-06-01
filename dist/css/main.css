@@ -87,6 +87,28 @@ button {
   margin: auto;
   font-family: Lato; }
 
+h2 {
+  font-size: 26px;
+  color: #333;
+  font-family: 'Lato-Black';
+  margin-bottom: 25px; }
+
+p {
+  font-family: 'Lato-Bold';
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 20px; }
+
+.block-header {
+  background-color: #357bc1;
+  font-family: 'Lato-Black';
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  padding: 19px 0;
+  letter-spacing: 1px; }
+
 header.header .top-header {
   height: 84px;
   background-color: #3078c0; }
@@ -696,14 +718,110 @@ footer.footer {
     color: #333;
     background-color: #fff; }
 
-h2 {
-  font-size: 26px;
-  color: #333;
-  font-family: 'Lato-Black';
-  margin-bottom: 25px; }
+.lk .last-changes {
+  background-color: #63c395;
+  color: #fff;
+  padding: 25px;
+  margin-top: 33px; }
+  .lk .last-changes li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 27px; }
+    .lk .last-changes li:first-child {
+      height: 82px;
+      width: 82px;
+      background-color: #fff;
+      -webkit-border-radius: 100%;
+              border-radius: 100%;
+      position: relative; }
+    .lk .last-changes li:nth-child(2) {
+      font-family: 'Lato-Black';
+      font-size: 20px;
+      max-width: 250px;
+      line-height: 1.2; }
+    .lk .last-changes li:last-child {
+      margin-right: 0; }
+    .lk .last-changes li a {
+      font-size: 11px;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 1px;
+      background-color: rgba(238, 239, 239, 0.149);
+      -webkit-box-shadow: 0 5px 22px -8px rgba(0, 0, 0, 0.5), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+              box-shadow: 0 5px 22px -8px rgba(0, 0, 0, 0.5), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+      width: 175px;
+      -webkit-border-radius: 35px;
+              border-radius: 35px;
+      display: block;
+      padding: 20px 0;
+      color: #fff;
+      border-top: 1px solid #a6dcc2; }
+    .lk .last-changes li img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
 
-p {
-  font-family: 'Lato-Bold';
-  font-size: 13px;
-  color: #333;
-  margin-bottom: 20px; }
+.lk .personal-info {
+  margin: 47px 0 42px; }
+  .lk .personal-info .block-header {
+    text-align: left;
+    padding-left: 30px; }
+  .lk .personal-info .block-body {
+    padding: 14px 30px 25px; }
+    .lk .personal-info .block-body .info-title li {
+      display: inline-block;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      float: left; }
+      .lk .personal-info .block-body .info-title li .left {
+        width: 222px;
+        float: left;
+        border-right: 1px solid #eaeaea;
+        line-height: 1.5;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        font-size: 12px;
+        color: #333;
+        text-transform: uppercase;
+        font-family: 'Lato-Black'; }
+        .lk .personal-info .block-body .info-title li .left .edit {
+          font-size: 13px;
+          color: #357bc1;
+          text-decoration: underline;
+          font-family: 'Lato-Bold';
+          display: block;
+          text-transform: capitalize;
+          margin-top: 137px; }
+          .lk .personal-info .block-body .info-title li .left .edit:hover {
+            text-decoration: none; }
+      .lk .personal-info .block-body .info-title li .right {
+        width: -webkit-calc(100% - 276px);
+        width: calc(100% - 276px);
+        float: right;
+        padding-left: 53px;
+        padding-top: 11px;
+        line-height: 1.2;
+        padding-bottom: 11px; }
+        .lk .personal-info .block-body .info-title li .right .soc {
+          display: block;
+          margin-bottom: 11px; }
+          .lk .personal-info .block-body .info-title li .right .soc img, .lk .personal-info .block-body .info-title li .right .soc span, .lk .personal-info .block-body .info-title li .right .soc a {
+            display: inline-block;
+            vertical-align: middle; }
+          .lk .personal-info .block-body .info-title li .right .soc img {
+            margin-right: 17px; }
+          .lk .personal-info .block-body .info-title li .right .soc span {
+            font-size: 13px;
+            color: #333;
+            width: 97px; }
+          .lk .personal-info .block-body .info-title li .right .soc a {
+            font-size: 13px;
+            color: #357bc1;
+            text-decoration: underline;
+            font-family: 'Lato-Bold'; }
+            .lk .personal-info .block-body .info-title li .right .soc a:hover {
+              text-decoration: none; }
