@@ -13,7 +13,8 @@ a {
 }
 
 input,
-button {
+button,
+textarea {
 	outline: none;
 }
 
@@ -999,9 +1000,12 @@ footer.footer {
 	}
 	.notification {
 		margin-top: 80px;
+		margin-bottom: 54px;
 		.block-body {
 			background-color: #fbfbfb;
 			padding-bottom: 40px;
+			border-radius: 0 0 5px 5px;
+			border: 1px solid #ebebeb;
 			form {
 				ul {
 					padding: 20px;
@@ -1091,10 +1095,95 @@ footer.footer {
 				border-radius: 32px;
 				margin-top: 40px;
 				cursor: pointer;
+				transition: .3s;
 				&:hover {
 					color: #333;
 					background-color: #fff;
+					transition: .3s;
 				}				
+			}
+		}
+	}
+	.consult-block {
+		padding: 41px 0;
+		border: 1px solid #ebebeb;
+		background-color: #fbfbfb;
+		border-radius: 5px;
+		form {
+			.left {
+				text-align: center;
+				width: 254px;
+				float: left;
+				img {
+					margin-bottom: 20px;
+				}
+				.title {
+					text-transform: uppercase;
+					font-size: 12px;
+					color: #333;
+					font-family: 'Lato-Black';
+					margin-bottom: 16px;
+				}
+				.text {
+					font-size: 13px;
+					color: #333;
+					max-width: 142px;
+					display: block;
+					margin: auto;
+					margin-bottom: 18px;
+				}
+				.faq {
+					font-style: 13px;
+					color: #357bc1;
+					font-family: 'Lato-Bold';
+					text-decoration: underline;
+					&:hover {
+						text-decoration: none;
+					}
+				}
+			}
+			.right {
+				width: calc(100% - 254px);
+				float: right;
+				span {
+					display: block;
+					font-size: 13px;
+					color: #333;
+				}
+				textarea {
+					width: 100%;
+					max-width: 323px;
+					height: 150px;
+					display: block;
+					border: 1px solid #ebebeb;
+					border-radius: 5px;
+					margin: 20px 0 25px;
+					resize: none;
+					padding: 7px;
+				}
+				input {
+					display: block;
+					margin: auto;
+					font-size: 10px;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					text-align: center;
+					width: 130px;
+					border: 1px solid #357bc1;
+					background-color: #357bc1;
+					color: #fff;
+					padding: 10px;
+					border-radius: 32px;
+					margin-top: 40px;
+					cursor: pointer;
+					transform: translateX(-30%);
+					transition: .3s;
+					&:hover {
+						color: #357bc1;
+						background-color: #fff;
+						transition: .3s;
+					}
+				}
 			}
 		}
 	}

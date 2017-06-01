@@ -73,7 +73,8 @@ a {
     transition: .3s; }
 
 input,
-button {
+button,
+textarea {
   outline: none; }
 
 .clearfix::after {
@@ -872,10 +873,14 @@ footer.footer {
   width: 100%; }
 
 .lk .notification {
-  margin-top: 80px; }
+  margin-top: 80px;
+  margin-bottom: 54px; }
   .lk .notification .block-body {
     background-color: #fbfbfb;
-    padding-bottom: 40px; }
+    padding-bottom: 40px;
+    -webkit-border-radius: 0 0 5px 5px;
+            border-radius: 0 0 5px 5px;
+    border: 1px solid #ebebeb; }
     .lk .notification .block-body form ul {
       padding: 20px;
       position: relative; }
@@ -952,7 +957,89 @@ footer.footer {
       -webkit-border-radius: 32px;
               border-radius: 32px;
       margin-top: 40px;
-      cursor: pointer; }
+      cursor: pointer;
+      -webkit-transition: .3s;
+      transition: .3s; }
       .lk .notification .block-body input[type="submit"]:hover {
         color: #333;
-        background-color: #fff; }
+        background-color: #fff;
+        -webkit-transition: .3s;
+        transition: .3s; }
+
+.lk .consult-block {
+  padding: 41px 0;
+  border: 1px solid #ebebeb;
+  background-color: #fbfbfb;
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+  .lk .consult-block form .left {
+    text-align: center;
+    width: 254px;
+    float: left; }
+    .lk .consult-block form .left img {
+      margin-bottom: 20px; }
+    .lk .consult-block form .left .title {
+      text-transform: uppercase;
+      font-size: 12px;
+      color: #333;
+      font-family: 'Lato-Black';
+      margin-bottom: 16px; }
+    .lk .consult-block form .left .text {
+      font-size: 13px;
+      color: #333;
+      max-width: 142px;
+      display: block;
+      margin: auto;
+      margin-bottom: 18px; }
+    .lk .consult-block form .left .faq {
+      font-style: 13px;
+      color: #357bc1;
+      font-family: 'Lato-Bold';
+      text-decoration: underline; }
+      .lk .consult-block form .left .faq:hover {
+        text-decoration: none; }
+  .lk .consult-block form .right {
+    width: -webkit-calc(100% - 254px);
+    width: calc(100% - 254px);
+    float: right; }
+    .lk .consult-block form .right span {
+      display: block;
+      font-size: 13px;
+      color: #333; }
+    .lk .consult-block form .right textarea {
+      width: 100%;
+      max-width: 323px;
+      height: 150px;
+      display: block;
+      border: 1px solid #ebebeb;
+      -webkit-border-radius: 5px;
+              border-radius: 5px;
+      margin: 20px 0 25px;
+      resize: none;
+      padding: 7px; }
+    .lk .consult-block form .right input {
+      display: block;
+      margin: auto;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      width: 130px;
+      border: 1px solid #357bc1;
+      background-color: #357bc1;
+      color: #fff;
+      padding: 10px;
+      -webkit-border-radius: 32px;
+              border-radius: 32px;
+      margin-top: 40px;
+      cursor: pointer;
+      -webkit-transform: translateX(-30%);
+          -ms-transform: translateX(-30%);
+              transform: translateX(-30%);
+      -webkit-transition: .3s;
+      transition: .3s; }
+      .lk .consult-block form .right input:hover {
+        color: #357bc1;
+        background-color: #fff;
+        -webkit-transition: .3s;
+        transition: .3s; }
