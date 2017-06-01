@@ -260,6 +260,13 @@
   .lk .consult-block form .right input {
     transform: translateX(0);
   }
+  header.header .bottom-header {
+    margin-bottom: 60px;
+  }
+  header.header .bottom-header nav ul li:last-child {
+    margin-bottom: -45px;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 700px)  {

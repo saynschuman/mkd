@@ -195,7 +195,12 @@
   .lk .consult-block form .right input {
     -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
-            transform: translateX(0); } }
+            transform: translateX(0); }
+  header.header .bottom-header {
+    margin-bottom: 60px; }
+  header.header .bottom-header nav ul li:last-child {
+    margin-bottom: -45px;
+    margin-top: 10px; } }
 
 @media screen and (max-width: 700px) {
   .content main.homepage .acts .acts-body .item .line li:last-child {
