@@ -1027,7 +1027,7 @@ footer.footer {
 				ul {
 					padding: 20px;
 					position: relative;
-					&:last-child {
+					&.sec-l {
 						&::after {
 							display: none;
 						}
@@ -1110,7 +1110,7 @@ footer.footer {
 				color: #fff;
 				padding: 10px;
 				border-radius: 32px;
-				margin-top: 40px;
+				margin-top: 17px;
 				cursor: pointer;
 				transition: .3s;
 				&:hover {

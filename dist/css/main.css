@@ -900,7 +900,7 @@ footer.footer {
     .lk .notification .block-body form ul {
       padding: 20px;
       position: relative; }
-      .lk .notification .block-body form ul:last-child::after {
+      .lk .notification .block-body form ul.sec-l::after {
         display: none; }
       .lk .notification .block-body form ul::after {
         content: '';
@@ -972,7 +972,7 @@ footer.footer {
       padding: 10px;
       -webkit-border-radius: 32px;
               border-radius: 32px;
-      margin-top: 40px;
+      margin-top: 17px;
       cursor: pointer;
       -webkit-transition: .3s;
       transition: .3s; }
