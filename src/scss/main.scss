@@ -722,6 +722,23 @@ footer.footer {
 			color: #c1c2c2;
 			font-family: 'Lato-Italic';
 			font-size: 13px;
+			position: relative;
+			&::after {
+				content: '';
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 0;
+				background-color: #c1c2c2;
+				height: 1px;
+				transition: .3s;
+			}
+			&:hover {
+				transition: .3s;
+				&::after {
+					width: 100%;
+				}
+			}
 		}
 	}
 }

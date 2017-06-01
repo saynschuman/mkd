@@ -650,7 +650,23 @@ footer.footer {
     .breadcrumbs li a {
       color: #c1c2c2;
       font-family: 'Lato-Italic';
-      font-size: 13px; }
+      font-size: 13px;
+      position: relative; }
+      .breadcrumbs li a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        background-color: #c1c2c2;
+        height: 1px;
+        -webkit-transition: .3s;
+        transition: .3s; }
+      .breadcrumbs li a:hover {
+        -webkit-transition: .3s;
+        transition: .3s; }
+        .breadcrumbs li a:hover::after {
+          width: 100%; }
 
 .documents h1 {
   font-size: 26px;

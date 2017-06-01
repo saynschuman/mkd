@@ -170,11 +170,74 @@
   .documents .acts .show-more {
     margin-bottom: 40px; }
   .text {
-    padding: 15px; } }
+    padding: 15px; }
+  .lk h2, .lk p {
+    padding-left: 15px; }
+  .pack-block .block-body {
+    width: 600px;
+    margin: auto;
+    background-color: #fafafa; }
+  .lk .consult-block form .left,
+  .lk .consult-block form .right {
+    width: 100%;
+    float: none; }
+  .lk .consult-block form .right {
+    max-width: 400px;
+    margin: auto; }
+    .lk .consult-block form .right textarea {
+      max-width: 90%;
+      padding: 0;
+      margin: auto; }
+  .lk .consult-block form .right span {
+    margin-top: 25px;
+    padding-left: 15px;
+    margin-bottom: 10px; }
+  .lk .consult-block form .right input {
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0); } }
 
 @media screen and (max-width: 700px) {
   .content main.homepage .acts .acts-body .item .line li:last-child {
-    float: left; } }
+    float: left; }
+  .lk .pack-block .pack {
+    width: 248px;
+    background-color: #fafafa;
+    float: none;
+    vertical-align: bottom;
+    height: 460px;
+    position: relative;
+    display: block;
+    margin: auto; }
+  .pack-block .block-body {
+    width: 100%; }
+  .lk .last-changes li {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px; }
+  .lk .last-changes li a {
+    margin: auto; }
+  .lk .last-changes li:nth-child(2) {
+    text-align: center; }
+  .lk .personal-info .block-body .info-title li .left {
+    padding-top: 0;
+    padding-bottom: 10px;
+    width: 100%;
+    float: none;
+    border-right: none; }
+  .lk .personal-info .block-body .info-title li .right {
+    padding-top: 0;
+    padding-bottom: 10px;
+    width: 100%;
+    float: none;
+    padding-left: 0; }
+  .lk .personal-info .block-body .info-title li .left .edit {
+    margin-top: 6px; }
+  .lk .personal-info {
+    margin: 0; }
+  .lk .notification .block-body form ul li:last-child {
+    display: block;
+    padding: 20px 15px; } }
 
 @media screen and (max-width: 480px) {
   .content aside .aside-block .block-body .thumb {
