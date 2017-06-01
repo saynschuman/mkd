@@ -7,4 +7,9 @@
 		$(this).toggleClass('active');
 	})
 
+	$('.faq .questions li span').click(function(){
+		$(this).next().slideToggle(300);
+		$(this).parent().toggleClass('active');
+	})
+
 })(jQuery);

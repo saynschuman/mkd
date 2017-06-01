@@ -1205,3 +1205,83 @@ footer.footer {
 		}
 	}
 }
+
+// faq
+
+.faq {
+	h2 {
+		text-transform: uppercase;
+	}
+	.questions {
+		li {
+			position: relative;
+			margin: 15px;
+			padding-top: 0;
+			&.active {
+				span {
+					color: #357bc1;
+					background-color: #f5f3f3;
+					position: relative;
+					&::after {
+						content: '';
+						border: 7px solid transparent;
+						border-top: 7px solid #357bc1;
+						right: 33px;
+						top: 57%;
+						transform: translateY(-50%);
+						display: block;
+						position: absolute;
+					}
+					&::before {
+						color: #fff;
+						background-color: #357bc1; 
+					}
+				}
+			}
+			span {
+				font-size: 13px;
+				font-family: 'Lato-Bold';
+				color: #333;
+				text-decoration: underline;
+				vertical-align: middle;
+				padding-left: 60px;
+				position: relative;
+				display: block;
+				cursor: pointer;
+				padding: 20px;
+				padding-left: 70px;
+				&::before {
+					content: "\f128";
+					left: 12px;
+					top: 50%;
+					transform: translateY(-50%);
+					position: absolute;
+					color: #357bc1;
+					margin-right: 20px;
+					background-color: #f5f3f3;
+					padding: 10px 14px; 
+					border-radius: 100%;
+					font-family: FontAwesome;
+					display: inline-block;
+					font-size: 20px;
+				}
+			}
+			&::after {
+
+			}
+			.answer {
+				padding-left: 60px; 
+				border-bottom: 1px solid #eee;
+				display: none;
+				p {
+					font-size: 13px;
+					font-family: "Lato";
+					margin: 20px 0;
+				}
+				a {
+
+				}
+			}
+		}
+	}
+}

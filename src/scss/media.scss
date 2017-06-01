@@ -267,11 +267,23 @@
     margin-bottom: -45px;
     margin-top: 10px;
   }
+  h2, p {
+    padding: 0 15px;
+  }
+  .faq .questions li.active span::after {
+    right: 15px;
+  }
+  .faq .questions li.active span {
+    padding-right: 30px;
+  }
 }
 
 @media screen and (max-width: 700px)  {
   .content main.homepage .acts .acts-body .item .line li:last-child {
       float: left;
+  }
+  .faq .questions li .answer {
+    padding-left: 0;
   }
   .lk .pack-block .pack {
     width: 248px;
