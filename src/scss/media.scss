@@ -276,9 +276,55 @@
   .faq .questions li.active span {
     padding-right: 40px;
   }
+  .pockets .contact-block {
+    padding: 15px;
+  }
+  .pockets .contact-block .bl textarea {
+    height: 100px;
+  }
 }
 
 @media screen and (max-width: 700px)  {
+  .pockets .contact-block .left {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+  }
+  .pockets .contact-block .bl .cards img {
+    width: 100%;
+    max-width: 100px;
+    margin: auto;
+    display: block;
+  }
+  .pockets .contact-block .bl {
+    padding: 0;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .pockets .complects .complect .complect-header .complect-title span {
+    font-size: 25px;
+  }
+  .pockets .complects .complect .complect-body {
+    padding: 30px 20px;
+  }
+  .pockets .contact-block .bl .face-operator {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .pockets .contact-block .bl textarea {
+    border: none;
+  }
+  .pockets .contact-block .right {
+    float: none;
+    width: 100%;
+  }
+  .pockets .complects .complect .complect-header .complect-title {
+    padding-left: 0;
+  }
+  .pockets .complects .complect .complect-header .complect-title::before {
+    display: none;
+  }
   .content main.homepage .acts .acts-body .item .line li:last-child {
       float: left;
   }

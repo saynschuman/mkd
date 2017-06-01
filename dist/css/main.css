@@ -1008,7 +1008,7 @@ footer.footer {
       margin: auto;
       margin-bottom: 18px; }
     .lk .consult-block form .left .faq {
-      font-style: 13px;
+      font-size: 13px;
       color: #357bc1;
       font-family: 'Lato-Bold';
       text-decoration: underline; }
@@ -1123,3 +1123,193 @@ footer.footer {
       font-size: 13px;
       font-family: "Lato";
       margin: 20px 0; }
+
+.pockets .complects .complect.basic .complect-header {
+  background-color: #a2a3a4; }
+  .pockets .complects .complect.basic .complect-header .complect-title::before {
+    background-image: url(../img/compl-1.png); }
+
+.pockets .complects .complect.full .complect-header {
+  background-color: #518bc8; }
+  .pockets .complects .complect.full .complect-header .complect-title::before {
+    background-image: url(../img/compl-2.png);
+    height: 110px; }
+
+.pockets .complects .complect.premium .complect-header {
+  background-color: #065280; }
+  .pockets .complects .complect.premium .complect-header .complect-title::before {
+    background-image: url(../img/compl-3.png);
+    height: 114px; }
+
+.pockets .complects .complect .complect-header {
+  padding: 35px 23px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+  .pockets .complects .complect .complect-header .complect-title {
+    font-size: 20px;
+    font-family: 'Lato-Black';
+    color: #fff;
+    line-height: 1.3;
+    position: relative;
+    padding-left: 200px;
+    text-align: center; }
+    .pockets .complects .complect .complect-header .complect-title span {
+      font-size: 31px;
+      display: block;
+      text-transform: uppercase; }
+    .pockets .complects .complect .complect-header .complect-title::before {
+      content: '';
+      height: 109px;
+      width: 130px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+      left: 0;
+      background-repeat: no-repeat;
+      display: block;
+      padding-right: 0;
+      position: absolute; }
+
+.pockets .complects .complect .complect-body {
+  background-color: #fafafa;
+  padding: 43px 49px; }
+  .pockets .complects .complect .complect-body .body-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #333;
+    font-family: 'Lato-Black';
+    margin-bottom: 20px;
+    padding-left: 50px; }
+  .pockets .complects .complect .complect-body .body-positions li {
+    position: relative;
+    padding: 10px 0;
+    padding-left: 50px; }
+    .pockets .complects .complect .complect-body .body-positions li::before {
+      content: attr(data-number);
+      padding: 5px 8px;
+      left: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+      margin-right: 20px;
+      background-color: #3078c0;
+      color: #fff;
+      -webkit-border-radius: 100%;
+              border-radius: 100%;
+      display: inline-block;
+      position: absolute; }
+  .pockets .complects .complect .complect-body .order {
+    display: block;
+    margin: auto;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 130px;
+    color: #fff;
+    padding: 10px;
+    -webkit-border-radius: 32px;
+            border-radius: 32px;
+    margin-top: 40px; }
+    .pockets .complects .complect .complect-body .order.gray {
+      border: 1px solid #a2a3a4;
+      background-color: #a2a3a4; }
+      .pockets .complects .complect .complect-body .order.gray:hover {
+        color: #a2a3a4;
+        background-color: #fff; }
+    .pockets .complects .complect .complect-body .order.light-blue {
+      border: 1px solid #518bc8;
+      background-color: #518bc8; }
+      .pockets .complects .complect .complect-body .order.light-blue:hover {
+        color: #518bc8;
+        background-color: #fff; }
+    .pockets .complects .complect .complect-body .order.dark-blue {
+      border: 1px solid #065280;
+      background-color: #065280; }
+      .pockets .complects .complect .complect-body .order.dark-blue:hover {
+        color: #065280;
+        background-color: #fff; }
+
+.pockets .contact-block {
+  padding-top: 54px; }
+  .pockets .contact-block .bl {
+    background-color: #fbfbfb;
+    border: 1px solid #ebebeb;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    padding: 20px 30px; }
+    .pockets .contact-block .bl .cards img {
+      width: 100%; }
+    .pockets .contact-block .bl .face {
+      display: block;
+      margin: auto;
+      margin-bottom: 20px; }
+    .pockets .contact-block .bl .title {
+      text-transform: uppercase;
+      font-size: 12px;
+      color: #333;
+      font-family: 'Lato-Black';
+      margin-bottom: 16px; }
+    .pockets .contact-block .bl .face-operator {
+      float: left;
+      margin-right: 20px; }
+    .pockets .contact-block .bl .text {
+      font-size: 13px;
+      color: #333;
+      display: block;
+      margin: auto;
+      margin-bottom: 18px; }
+    .pockets .contact-block .bl .faq {
+      font-size: 13px;
+      color: #357bc1;
+      font-family: 'Lato-Bold';
+      text-decoration: underline; }
+      .pockets .contact-block .bl .faq:hover {
+        text-decoration: none; }
+    .pockets .contact-block .bl textarea {
+      width: -webkit-calc(100% - 34px);
+      width: calc(100% - 34px);
+      height: 150px;
+      display: block;
+      border: 1px solid #ebebeb;
+      -webkit-border-radius: 5px;
+              border-radius: 5px;
+      margin: 20px 0 25px;
+      resize: none;
+      padding: 17px;
+      font-size: 13px;
+      color: #818181;
+      font-family: 'Lato-Italic'; }
+    .pockets .contact-block .bl input {
+      display: block;
+      margin: auto;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      width: 114px;
+      border: 1px solid #357bc1;
+      background-color: #357bc1;
+      color: #fff;
+      padding: 10px;
+      -webkit-border-radius: 32px;
+              border-radius: 32px;
+      margin-top: 40px;
+      cursor: pointer;
+      -webkit-transition: .3s;
+      transition: .3s; }
+      .pockets .contact-block .bl input:hover {
+        color: #357bc1;
+        background-color: #fff;
+        -webkit-transition: .3s;
+        transition: .3s; }
+  .pockets .contact-block .left {
+    width: 126px;
+    float: left;
+    margin-right: 30px; }
+  .pockets .contact-block .right {
+    width: -webkit-calc(100% - 280px);
+    width: calc(100% - 280px);
+    float: right; }
