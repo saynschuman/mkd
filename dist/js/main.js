@@ -12,4 +12,17 @@
 		$(this).parent().toggleClass('active');
 	})
 
+	$('.dir').click(function(e){
+		e.preventDefault();
+	})
+	$('.dir').focus(function(){
+		$(this).next().slideToggle(350);
+	})
+	$('.dir').blur(function(){
+		$(this).next().slideToggle(350);		
+	})
+	$('.sublist li').click(function(){
+		$(this).parent().parent().find('a').text($(this).text())
+	})
+
 })(jQuery);
