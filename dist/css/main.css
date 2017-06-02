@@ -99,6 +99,8 @@ p {
   font-size: 13px;
   color: #333;
   margin-bottom: 20px; }
+  p.simple {
+    font-family: 'Lato'; }
 
 .block-header {
   background-color: #357bc1;
@@ -1429,3 +1431,163 @@ footer.footer {
     margin-right: 13px;
     display: inline-block;
     vertical-align: middle; }
+
+.schedule .courses {
+  padding-bottom: 30px; }
+  .schedule .courses .course .course-name {
+    color: #357bc1;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Lato-Black';
+    line-height: 1.2;
+    margin-bottom: 10px;
+    margin-top: -10px; }
+  .schedule .courses .course .course-info {
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+    position: relative;
+    padding-top: 25px;
+    margin-bottom: 40px; }
+    .schedule .courses .course .course-info li {
+      display: inline-block;
+      vertical-align: middle; }
+      .schedule .courses .course .course-info li:first-child {
+        font-size: 13px;
+        color: #333;
+        font-family: 'Lato-Bold';
+        margin-right: 30px;
+        margin-bottom: 30px; }
+        .schedule .courses .course .course-info li:first-child::before {
+          content: '';
+          height: 24px;
+          width: 24px;
+          background-image: url(../img/planet.png);
+          margin-right: 8px;
+          display: inline-block;
+          vertical-align: middle; }
+      .schedule .courses .course .course-info li:nth-child(2) {
+        font-size: 13px;
+        color: #333;
+        font-family: 'Lato-Bold';
+        margin-bottom: 30px; }
+        .schedule .courses .course .course-info li:nth-child(2) a {
+          color: #357bc1;
+          text-decoration: underline; }
+          .schedule .courses .course .course-info li:nth-child(2) a:hover {
+            text-decoration: none; }
+        .schedule .courses .course .course-info li:nth-child(2)::before {
+          content: '';
+          height: 24px;
+          width: 24px;
+          background-image: url(../img/calendar.png);
+          margin-right: 8px;
+          display: inline-block;
+          vertical-align: middle; }
+      .schedule .courses .course .course-info li:nth-child(3) {
+        font-size: 25px;
+        color: #333;
+        font-family: 'Lato-Black';
+        float: right;
+        margin-bottom: 30px; }
+        .schedule .courses .course .course-info li:nth-child(3)::after {
+          content: attr(data-currency);
+          font-size: 16px;
+          padding-left: 6px; }
+      .schedule .courses .course .course-info li:nth-child(4) {
+        float: left; }
+        .schedule .courses .course .course-info li:nth-child(4) a {
+          font-size: 20px;
+          color: #333;
+          font-family: 'Lato-Black'; }
+        .schedule .courses .course .course-info li:nth-child(4)::before {
+          content: attr(data-title);
+          font-size: 13px;
+          padding-right: 6px;
+          font-family: 'Lato'; }
+      .schedule .courses .course .course-info li:last-child {
+        position: absolute;
+        right: 0;
+        top: 70px; }
+        .schedule .courses .course .course-info li:last-child a {
+          display: block;
+          margin: auto;
+          font-size: 10px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          text-align: center;
+          width: 130px;
+          border: 1px solid #52bd8a;
+          background-color: #52bd8a;
+          color: #fff;
+          padding: 10px;
+          -webkit-border-radius: 32px;
+                  border-radius: 32px; }
+          .schedule .courses .course .course-info li:last-child a:hover {
+            color: #52bd8a;
+            background-color: #fff; }
+  .schedule .courses .course .course-data {
+    border: 1px solid #ededed;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    margin-bottom: 50px; }
+    .schedule .courses .course .course-data .left {
+      background-color: #ededed;
+      width: 213px;
+      float: left;
+      height: 360px; }
+      .schedule .courses .course .course-data .left ul li {
+        border-bottom: 1px solid #ddd; }
+        .schedule .courses .course .course-data .left ul li a {
+          font-size: 12px;
+          text-transform: uppercase;
+          font-family: 'Lato-Black';
+          color: #333;
+          padding: 20px 30px;
+          display: block; }
+          .schedule .courses .course .course-data .left ul li a.active {
+            background-color: #fff; }
+          .schedule .courses .course .course-data .left ul li a:hover {
+            background-color: #fff; }
+        .schedule .courses .course .course-data .left ul li:last-child {
+          border-bottom: none; }
+    .schedule .courses .course .course-data .right {
+      width: -webkit-calc(100% - 213px);
+      width: calc(100% - 213px);
+      height: 360px;
+      overflow-y: auto;
+      font-size: 12px;
+      color: #333; }
+      .schedule .courses .course .course-data .right .subject {
+        padding: 20px 32px;
+        display: none;
+        -webkit-transition: .3s;
+        transition: .3s; }
+        .schedule .courses .course .course-data .right .subject.active {
+          display: block;
+          -webkit-transition: .3s;
+          transition: .3s; }
+        .schedule .courses .course .course-data .right .subject ol li {
+          list-style-type: none;
+          line-height: 1.2;
+          margin-bottom: 20px; }
+          .schedule .courses .course .course-data .right .subject ol li::before {
+            content: attr(data-number);
+            position: relative;
+            margin-right: 5px; }
+          .schedule .courses .course .course-data .right .subject ol li ul {
+            padding-top: 20px; }
+            .schedule .courses .course .course-data .right .subject ol li ul li {
+              list-style-type: none;
+              position: relative;
+              text-indent: 11px; }
+              .schedule .courses .course .course-data .right .subject ol li ul li::before {
+                content: '';
+                position: absolute;
+                height: 4px;
+                width: 4px;
+                -webkit-border-radius: 100%;
+                        border-radius: 100%;
+                background-color: #333;
+                left: 1px;
+                top: 6px;
+                margin-0: 5px; }

@@ -210,9 +210,60 @@
   .pockets .contact-block {
     padding: 15px; }
   .pockets .contact-block .bl textarea {
-    height: 100px; } }
+    height: 100px; }
+  .schedule .included,
+  .schedule .directions,
+  .download-schedule,
+  .schedule .courses,
+  .schedule .courses .course .course-name {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .schedule .courses .course .course-info li {
+    display: block; }
+  .schedule .courses .course .course-info li:first-child,
+  .schedule .courses .course .course-info li:last-child,
+  .schedule .courses .course .course-info li:nth-child(2),
+  .schedule .courses .course .course-info li:nth-child(3),
+  .schedule .courses .course .course-info li:nth-child(4) {
+    margin-bottom: 10px;
+    position: relative;
+    float: none; }
+  .schedule .courses .course .course-info li:last-child {
+    top: 0;
+    margin-left: 0;
+    float: left; }
+  .schedule .courses .course .course-info {
+    margin-bottom: 10px; } }
 
 @media screen and (max-width: 700px) {
+  .schedule .download-schedule::before {
+    content: '';
+    height: 17px;
+    width: 17px;
+    background-image: url(../img/schedule-ic.png);
+    margin-right: 9px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100%; }
+  .schedule .directions li {
+    display: block;
+    margin: 0 auto !important;
+    float: none;
+    width: 100%;
+    margin-bottom: 20px !important; }
+  .schedule .directions li .sublist {
+    z-index: 99; }
+  .schedule .directions li .sublist li {
+    width: 200px;
+    margin-bottom: 0 !important; }
+  .schedule .courses .course .course-data .left {
+    width: 100%;
+    float: none;
+    height: auto; }
+  .schedule .courses .course .course-data .right {
+    width: 100%;
+    float: none;
+    height: auto; }
   .pockets .contact-block .left {
     float: none;
     width: 100%;

@@ -47,6 +47,9 @@ p {
 	font-size: 13px;
 	color: #333;	
 	margin-bottom: 20px;
+	&.simple {
+		font-family: 'Lato';
+	}
 }
 
 .block-header {
@@ -1643,6 +1646,198 @@ footer.footer {
 			margin-right: 13px;
 		    display: inline-block;
     		vertical-align: middle;
+		}
+	}
+	.courses {
+		padding-bottom: 30px;
+		.course {
+			.course-name {
+				color: #357bc1;
+				font-size: 20px;
+				text-decoration: underline;
+				font-family: 'Lato-Black';
+				line-height: 1.2;
+				margin-bottom: 10px;
+				margin-top: -10px;
+			}
+			.course-info {
+				border-top: 1px solid #eee;
+				margin-top: 10px;
+				position: relative;
+				padding-top: 25px;
+				margin-bottom: 40px;
+				li {
+					display: inline-block;
+					vertical-align: middle;
+					&:first-child {
+						font-size: 13px;
+						color: #333;
+						font-family: 'Lato-Bold';
+						margin-right: 30px;
+						margin-bottom: 30px;
+						&::before {
+							content: '';
+							height: 24px;
+							width: 24px;
+							background-image: url(../img/planet.png); 
+							margin-right: 8px;
+						    display: inline-block;
+				    		vertical-align: middle;
+						}
+					}
+					&:nth-child(2) {
+						font-size: 13px;
+						color: #333;
+						font-family: 'Lato-Bold';
+						margin-bottom: 30px;
+						a {
+							color: #357bc1;
+							text-decoration: underline;
+							&:hover {
+								text-decoration: none;
+							}
+						}
+						&::before {
+							content: '';
+							height: 24px;
+							width: 24px;
+							background-image: url(../img/calendar.png); 
+							margin-right: 8px;
+						    display: inline-block;
+				    		vertical-align: middle;
+						}
+					}
+					&:nth-child(3) {
+						font-size: 25px;
+						color: #333;
+						font-family: 'Lato-Black';
+						float: right;
+						margin-bottom: 30px;
+						&::after {
+							content: attr(data-currency);
+							font-size: 16px;
+							padding-left: 6px;
+						}
+					}
+					&:nth-child(4) {
+						float: left;
+						a {
+							font-size: 20px;
+							color: #333;
+							font-family: 'Lato-Black';
+						}
+						&::before {
+							content: attr(data-title);
+							font-size: 13px;
+							padding-right: 6px;
+							font-family: 'Lato';
+						}
+					}
+					&:last-child {
+						position: absolute;
+						right: 0;
+						top: 70px;
+						a {
+							display: block;
+							margin: auto;
+							font-size: 10px;
+							text-transform: uppercase;
+							letter-spacing: 1px;
+							text-align: center;
+							width: 130px;
+							border: 1px solid #52bd8a;
+							background-color: #52bd8a;
+							color: #fff;
+							padding: 10px;
+							border-radius: 32px;
+							&:hover {
+								color: #52bd8a;
+								background-color: #fff;
+							}							
+						}
+					}
+				}
+			}
+			.course-data {
+				border: 1px solid #ededed;
+				border-radius: 5px;
+				margin-bottom: 50px;
+				.left{
+					background-color: #ededed;
+					width: 213px;
+					float: left;
+					height: 360px;
+					ul {
+						li {
+							border-bottom: 1px solid #ddd;
+							a {
+								font-size: 12px;
+								text-transform: uppercase;
+								font-family: 'Lato-Black';
+								color: #333;
+								padding: 20px 30px;
+								display: block;
+								&.active {
+									background-color: #fff;
+								}
+								&:hover {
+									background-color: #fff;
+								}
+							}
+							&:last-child {
+								border-bottom: none;
+							}
+						}
+					}
+				}
+				.right {
+					width: calc(100% - 213px);
+					height: 360px;
+					overflow-y: auto;
+					font-size: 12px;
+					color: #333;
+					.subject {
+						padding: 20px 32px;
+						display: none;
+						transition: .3s;
+						&.active {
+							display: block;
+							transition: .3s;
+						}
+						ol {
+							li {
+								list-style-type: none;
+								line-height: 1.2;
+								margin-bottom: 20px;
+								&::before {
+									content: attr(data-number);
+									position: relative;
+									margin-right: 5px;
+								}								
+								ul {
+									padding-top: 20px;
+									li {
+										list-style-type: none;
+										position: relative;
+										text-indent: 11px;
+										&::before {
+											content: '';
+											position: absolute;
+											height: 4px;
+											width: 4px;
+											border-radius: 100%;
+											background-color: #333;
+											left: 1px;
+											top: 6px;
+											margin-0: 5px;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }
