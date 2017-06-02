@@ -201,7 +201,7 @@
   header.header .bottom-header nav ul li:last-child {
     margin-bottom: -45px;
     margin-top: 10px; }
-  h2, p {
+  h2, p, h3 {
     padding: 0 15px; }
   .faq .questions li.active span::after {
     right: 15px; }
@@ -233,9 +233,36 @@
     margin-left: 0;
     float: left; }
   .schedule .courses .course .course-info {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  .partner .included,
+  .partner .contacts {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .partner .our-partners .partners-body .row {
+    margin: 0 auto;
+    display: block;
+    width: 696px; }
+  .partner .partnership {
+    margin-bottom: 30px; } }
 
 @media screen and (max-width: 700px) {
+  .partner .contacts li:first-child {
+    float: none;
+    width: 100%;
+    text-align: center; }
+  .partner .contacts li:last-child {
+    float: none;
+    width: 100%; }
+    .partner .contacts li:last-child a {
+      margin: 0 auto;
+      margin-top: 20px; }
+  .partner .our-partners .partners-body .row {
+    width: 100%; }
+  .partner .our-partners .partners-body .partner {
+    width: 100%;
+    float: none;
+    margin: 0;
+    margin-bottom: 15px; }
   .schedule .download-schedule::before {
     content: '';
     height: 17px;
@@ -342,4 +369,10 @@
     width: 100%; }
   .content main.homepage .acts .acts-body .item .line li {
     padding: 5px 20px;
-    border-bottom: none; } }
+    border-bottom: none; }
+  .partner .partnership img {
+    float: left;
+    width: 50px;
+    height: auto;
+    margin-right: 23px;
+    margin-bottom: 0; } }
