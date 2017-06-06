@@ -812,9 +812,6 @@ footer.footer {
 	p {
 		margin-bottom: 17px;
 		line-height: 1.2;
-		&::last-child {
-			margin-bottom: 20px;
-		}
 	}
 }
 
@@ -1396,7 +1393,13 @@ footer.footer {
 // pockets
 
 .pockets {
+	h2 {
+		text-transform: uppercase;
+		letter-spacing: 0.5px;
+		margin-bottom: 19px;
+	}
 	.complects {
+		padding-top: 20px;
 		.complect {
 			&.basic {
 				.complect-header {
@@ -1422,6 +1425,7 @@ footer.footer {
 			&.premium {
 				.complect-header {
 					background-color: #065280;
+					padding: 14px 23px;
 					.complect-title {
 						&::before {
 							background-image: url(../img/compl-3.png);
@@ -1439,7 +1443,7 @@ footer.footer {
 					color: #fff;
 					line-height: 1.3;
 					position: relative;
-					padding-left: 200px;
+					padding-left: 97px;
 					text-align: center;
 					span {
 						font-size: 31px;
@@ -1462,25 +1466,27 @@ footer.footer {
 			}
 			.complect-body {
 				background-color: #fafafa;
-				padding: 43px 49px;
+				padding: 43px 49px 94px;
 				.body-title {
 					font-size: 12px;
 					text-transform: uppercase;
 					color: #333;
 					font-family: 'Lato-Black';
-					margin-bottom: 20px;
+					margin-bottom: 8px;
 					padding-left: 50px;
 				}
 				.body-positions {
 					li {
 						position: relative;
 						padding: 10px 0;
-						padding-left: 50px;
+						padding-left: 37px;
+						font-size: 14px;
+						font-family: 'Lato-Bold';
 						&::before {
 							content: attr(data-number);
 							padding: 5px 8px;
 							left: 0;
-							top: 50%;
+							top: 44%;
 							transform: translateY(-50%);
 							margin-right: 20px;
 							background-color: #3078c0;
@@ -1492,17 +1498,17 @@ footer.footer {
 					}
 				}
 				.order {
-					display: block;
-					margin: auto;
-					font-size: 10px;
-					text-transform: uppercase;
-					letter-spacing: 1px;
-					text-align: center;
-					width: 130px;
-					color: #fff;
-					padding: 10px;
-					border-radius: 32px;
-					margin-top: 40px;
+				    display: block;
+				    margin: auto;
+				    font-size: 10px;
+				    text-transform: uppercase;
+				    letter-spacing: 1px;
+				    text-align: center;
+				    width: 112px;
+				    color: #fff;
+				    padding: 12px;
+				    border-radius: 32px;
+				    margin-top: 29px;
 					&.gray {
 						border: 1px solid #a2a3a4;
 						background-color: #a2a3a4;
@@ -1533,7 +1539,7 @@ footer.footer {
 		}
 	}
 	.contact-block {
-		padding-top: 54px;
+		padding-top: 16px;
 		.bl {
 			background-color: #fbfbfb;
 			border: 1px solid #ebebeb;
@@ -1554,18 +1560,22 @@ footer.footer {
 				font-size: 12px;
 				color: #333;
 				font-family: 'Lato-Black';
-				margin-bottom: 16px;
+				margin-bottom: 19px;
+				letter-spacing: 0.4px;
 			}
 			.face-operator {
 				float: left;
-				margin-right: 20px;
+				margin-right: 31px;
+				width: 70px;
+				margin-bottom: 21px;
 			}
 			.text {
 				font-size: 13px;
 				color: #333;
 				display: block;
 				margin: auto;
-				margin-bottom: 18px;
+				margin-bottom: 14px;
+				line-height: 1.2;
 			}
 			.faq {
 				font-size: 13px;
@@ -1578,7 +1588,7 @@ footer.footer {
 			}	
 			textarea {
 				width: calc(100% - 34px);
-				height: 150px;
+				height: 81px;
 				display: block;
 				border: 1px solid #ebebeb;
 				border-radius: 5px;
@@ -1590,21 +1600,21 @@ footer.footer {
 				font-family: 'Lato-Italic';
 			}
 			input {
-				display: block;
-				margin: auto;
-				font-size: 10px;
-				text-transform: uppercase;
-				letter-spacing: 1px;
-				text-align: center;
-				width: 114px;
-				border: 1px solid #357bc1;
-				background-color: #357bc1;
-				color: #fff;
-				padding: 10px;
-				border-radius: 32px;
-				margin-top: 40px;
-				cursor: pointer;
-				transition: .3s;
+			    display: block;
+			    margin: auto;
+			    font-size: 10px;
+			    text-transform: uppercase;
+			    letter-spacing: 1.7px;
+			    text-align: center;
+			    width: 125px;
+			    border: 1px solid #357bc1;
+			    background-color: #357bc1;
+			    color: #fff;
+			    padding: 10px;
+			    border-radius: 32px;
+			    margin-top: 23px;
+			    cursor: pointer;
+			    transition: .3s;
 				&:hover {
 					color: #357bc1;
 					background-color: #fff;
@@ -1616,6 +1626,8 @@ footer.footer {
 			width: 126px;
 			float: left;
 			margin-right: 30px;
+			padding: 20px 26px;
+			padding-bottom: 41px;
 		}
 		.right {
 			width: calc(100% - 280px);
