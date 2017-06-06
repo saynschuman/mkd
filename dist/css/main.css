@@ -728,6 +728,12 @@ footer.footer {
         .breadcrumbs li a:hover::after {
           width: 100%; }
 
+.about p {
+  margin-bottom: 17px;
+  line-height: 1.2; }
+  .about p::last-child {
+    margin-bottom: 20px; }
+
 .documents .show-more {
   width: 106px;
   padding: 8px; }

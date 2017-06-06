@@ -806,6 +806,19 @@ footer.footer {
 
 // PAGES
 
+// about
+
+.about {
+	p {
+		margin-bottom: 17px;
+		line-height: 1.2;
+		&::last-child {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+
 // documents
 
 .documents {
