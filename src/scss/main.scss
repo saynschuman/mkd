@@ -1316,9 +1316,9 @@ footer.footer {
 		text-transform: uppercase;
 	}
 	.questions {
+		margin-top: 27px;
 		li {
 			position: relative;
-			margin: 15px;
 			padding-top: 0;
 			&.active {
 				span {
@@ -1352,8 +1352,8 @@ footer.footer {
 				position: relative;
 				display: block;
 				cursor: pointer;
-				padding: 20px;
-				padding-left: 70px;
+			    padding: 20px 5px;
+				padding-left: 60px;
 				&::before {
 					content: "\f128";
 					left: 12px;
@@ -1363,7 +1363,7 @@ footer.footer {
 					color: #357bc1;
 					margin-right: 20px;
 					background-color: #f5f3f3;
-					padding: 10px 14px; 
+					padding: 6px 11px 7px 9px;
 					border-radius: 100%;
 					font-family: FontAwesome;
 					display: inline-block;
