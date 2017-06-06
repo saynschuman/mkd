@@ -1325,7 +1325,7 @@ footer.footer {
 					color: #357bc1;
 					background-color: #f5f3f3;
 					position: relative;
-					padding-right: 60px;
+					padding-right: 140px;
 					&::after {
 						content: '';
 						border: 7px solid transparent;
@@ -1352,8 +1352,9 @@ footer.footer {
 				position: relative;
 				display: block;
 				cursor: pointer;
-			    padding: 20px 5px;
+			    padding: 9px 5px;
 				padding-left: 60px;
+				line-height: 1.6;
 				&::before {
 					content: "\f128";
 					left: 12px;
@@ -1368,6 +1369,7 @@ footer.footer {
 					font-family: FontAwesome;
 					display: inline-block;
 					font-size: 20px;
+					line-height: 1;
 				}
 			}
 			&::after {
@@ -1376,11 +1378,13 @@ footer.footer {
 			.answer {
 				padding-left: 60px; 
 				border-bottom: 1px solid #eee;
-				display: none;
+				// display: none;
 				p {
 					font-size: 13px;
 					font-family: "Lato";
 					margin: 20px 0;
+					font-style: italic;
+					line-height: 1.1;
 				}
 				a {
 

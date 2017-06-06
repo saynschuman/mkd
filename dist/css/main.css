@@ -1168,7 +1168,7 @@ footer.footer {
       color: #357bc1;
       background-color: #f5f3f3;
       position: relative;
-      padding-right: 60px; }
+      padding-right: 140px; }
       .faq .questions li.active span::after {
         content: '';
         border: 7px solid transparent;
@@ -1193,8 +1193,9 @@ footer.footer {
       position: relative;
       display: block;
       cursor: pointer;
-      padding: 20px 5px;
-      padding-left: 60px; }
+      padding: 9px 5px;
+      padding-left: 60px;
+      line-height: 1.6; }
       .faq .questions li span::before {
         content: "\f128";
         left: 12px;
@@ -1211,15 +1212,17 @@ footer.footer {
                 border-radius: 100%;
         font-family: FontAwesome;
         display: inline-block;
-        font-size: 20px; }
+        font-size: 20px;
+        line-height: 1; }
     .faq .questions li .answer {
       padding-left: 60px;
-      border-bottom: 1px solid #eee;
-      display: none; }
+      border-bottom: 1px solid #eee; }
       .faq .questions li .answer p {
         font-size: 13px;
         font-family: "Lato";
-        margin: 20px 0; }
+        margin: 20px 0;
+        font-style: italic;
+        line-height: 1.1; }
 
 .pockets h2 {
   text-transform: uppercase;
