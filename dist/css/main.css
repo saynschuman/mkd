@@ -228,7 +228,6 @@ header.header .top-header {
             opacity: .9; }
 
 header.header .middle-header {
-  background-image: url(../img/first-screen-banner.jpg);
   height: 363px;
   text-align: right;
   background-size: cover;
