@@ -101,14 +101,16 @@ header.header {
 		background-color: #3078c0;
 		.item {
 			display: inline-block;
-			padding: 0 28px;
+			padding: 0;
 			float: right;
 			margin-top: 30px;
-			padding-top: 4px;
+			padding-top: 2px;
 			&:first-child {
 				padding-top: 0;
 			}
 			&.tel {
+				margin-right: 44px;
+				letter-spacing: 0.4px;
 				a {
 					color: #fff;
 					font-size: 26px;
@@ -122,6 +124,7 @@ header.header {
 			&.contacts {
 				font-family: 'Open Sans', sans-serif;
 				font-size: 14px;
+				margin-right: 48px;
 				a {
 					text-decoration: underline;
 					color: #fff;
@@ -134,7 +137,7 @@ header.header {
 			}
 			&.consult {
 				background-color: rgba(238, 239, 239, 0.149);
-  				box-shadow: 0px 4px 9px 0px rgba(31, 100, 170, 0.004),inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+  				box-shadow: 0px 4px 9px 0px rgba(31, 100, 170, 0.004), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4), 0px 7px 6px -6px rgba(0,0,0,.4);
   				border-radius: 23px;
   				padding: 0;
   				margin-top: 24px;
@@ -150,7 +153,7 @@ header.header {
 					font-family: 'Lato-Bold';
 					font-size: 11px;
 					text-transform: uppercase;
-					padding: 14px 28px 11px;
+					padding: 15px 25px 13px;
   					display: block;
   					border-radius: 23px;
 				}
@@ -159,9 +162,9 @@ header.header {
 				color: #fff;
 				background-color: #649ad0;
 				border-radius: 23px;
-				padding: 10px 28px;
+				padding: 11px 20px;
 				margin-top: 24px;
-				margin-left: 28px;
+    			margin-left: 44px;
 				 a {
 					font-size: 14px;
 					font-family: 'Open Sans', sans-serif;
@@ -174,6 +177,8 @@ header.header {
 			}
 			&.social {
 				padding-right: 0;
+				margin-left: -4px;
+				margin-top: 36px;
 			}
 			ul {
 				padding: 0;
@@ -181,9 +186,10 @@ header.header {
 				li {
 					list-style: none;
 					display: inline-block;
+					margin-left: 32px;
 					a {
-						padding: 0 14px;
 						color: #fff;
+						font-size: 21px;
 						&:hover {
 							opacity: .9;
 						}
@@ -196,12 +202,14 @@ header.header {
 		background-image: url(../img/first-screen-banner.jpg); 
 		height: 363px;
 		text-align: right;
+		background-size: cover;
+   		background-position: top center;
 		.logo {
 			display: block;
 			height: 147px;
 			width: 149px;
 			background-image: url(../img/logo.png); 
-			top: 27px;
+			top: 30px;
 			position: absolute;
 		}
 		.title {
@@ -210,12 +218,13 @@ header.header {
 			font-family: 'Lato-Black';
 			padding-top: 58px;
 			line-height: 1.3;
+			letter-spacing: 0.5px;
 		}
 		.sub-title {
 			font-size: 14px;
 			color: #333;
 			font-family: 'Open Sans', sans-serif;
-		    margin-top: 17px;
+		    margin-top: 15px;
     		line-height: 1.4;
 		}
 	}
@@ -294,7 +303,7 @@ header.header {
 			ul {
 				li {
 					display: inline-block;
-					padding: 0 25px;
+					padding: 0 23px;
 					&:first-child {
 						padding-left: 0;
 					}
@@ -340,8 +349,33 @@ header.header {
 						color: #333;
 						font-family: 'Lato-Black';
 						text-transform: uppercase;
-					    padding: 33px 0px;
+					    padding: 31px 0px 30px;
     					display: block;
+    					letter-spacing: 1.1px;
+    					position: relative;
+    					&:hover {
+    						color: #347bc1;
+    						&::after {
+    							transition: .3s;
+    							width: 100%;
+    						}
+    					}
+    					&::after {
+    						content: '';
+    						position: absolute;
+    						top: 50%;
+    						transform: translateY(-50%);
+    						left: 0;
+    						right: 0;
+    						margin: 0 auto;
+    						height: 35%;
+    						background-color: transparent;
+    						opacity: .4;
+    						width: 0;
+    						transition: .3s;
+    						border-top: 1px solid #347bc1;
+    						border-bottom: 1px solid #347bc1;
+    					}
 					}
 				}
 			}
@@ -352,7 +386,7 @@ header.header {
 // content
 
 .content {
-	padding: 37px 0;
+	padding: 34px 0;
 	aside {
 		.aside-block {
 			&:first-child {
@@ -365,16 +399,18 @@ header.header {
 				font-family: 'Lato-Black';
 				font-size: 12px;
 				text-transform: uppercase;
-				text-align: center;
+				text-align: left;
 				color: #fff;
-				padding: 19px 0;
-				letter-spacing: 1px;
+				padding: 19px 0 18px;
+			    letter-spacing: 1.1px;
+    			padding-left: 16px;
 			}
 			.block-body {
 				padding: 30px 15px;
 				border: 1px solid #ebebeb;
+				border-bottom: none;
 				.thumb {
-					height: 130px;
+					height: 132px;
 					width: 100%;
 					background-size: cover; 
 					margin-bottom: 18px;
@@ -382,20 +418,21 @@ header.header {
 				.date {
 					font-size: 12px;
 					color: #9b9b9c;
-					margin-bottom: 11px;
+					margin-bottom: 7px;
 				}
 				.text-preview {
 					font-size: 13px;
 					color: #333;
 					font-family: 'Lato-Bold';
-					line-height: 1.3;
+					line-height: 1.2;
 				}
 				.more {
-					margin-top: 23px;
-					display: block;
-					color: #357bc1;
-					font-family: 'Lato-Bold';
-					text-decoration: underline;
+				    margin-top: 18px;
+				    display: block;
+				    color: #357bc1;
+				    font-family: 'Lato-Bold';
+				    text-decoration: underline;
+				    font-size: 13px;
 					&:hover {
 						text-decoration: none;
 					}
@@ -428,20 +465,21 @@ header.header {
 			}
 			.aside-block {
 				.block-body {
-					padding: 14px 15px 30px;
+					padding: 14px 20px 30px;
 					img {
-						height: 113px;
+						height: 114px;
 						display: block;
 						margin: auto;
-						margin-top: 15px;
+						margin-top: 6px;
 					}
 					.expert-name {
 						font-size: 12px;
 						font-family: 'Lato-Black';
 						text-transform: uppercase;
 						display: block;
-						margin-top: 30px;
-						margin-bottom: 17px;
+						margin-top: 29px;
+						margin-bottom: 10px;
+						letter-spacing: 1.4px;
 					}
 					.text-preview {
 						font-family: "Lato";
@@ -451,8 +489,9 @@ header.header {
 						font-size: 13px;
 						font-family: 'Lato-Bold';
 						text-decoration: underline;
-						margin-bottom: 13px;
+						margin-bottom: 9px;
 						display: block;
+						line-height: 1.3;
 						&:hover {
 							text-decoration: none;
 						}
@@ -466,10 +505,10 @@ header.header {
 						background-color: #52bd8a;
 						text-align: center;
 						margin: auto;
-						padding: 14px 0;
+						padding: 11px 0;
 						box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
 						border-radius: 23px;
-						margin-top: 30px;
+						margin-top: 21px;
 						border: 1px solid #52bd8a;
 						font-family: 'Lato-Bold';
 						&:hover {
@@ -482,9 +521,9 @@ header.header {
 		}
 	}
 	main {
-		padding: 0 20px;
+		padding: 0 40px;
 		float: left;
-		width: calc(100% - 500px);
+		width: calc(100% - 540px);
 		&.homepage {
 			.thumb-home {
 				float: left;
@@ -497,28 +536,33 @@ header.header {
 				color: #333;
 				font-size: 26px;
 				font-family: 'Lato-Black';
-				margin-bottom: 21px;
+				margin-bottom: 12px;
 				line-height: 1.2;
+				letter-spacing: 0.5px;
 			}
 			.sub-title {
 				font-size: 13px;
 				color: #333;
 				font-family: 'Lato-Bold';
 				line-height: 1.2;
-				padding-bottom: 137px;
+				padding-bottom: 130px;
 			}
 			p {
 				font-size: 13px;
 				color: #333;
 				line-height: 1.3;
-				text-indent: 36px; 
+				margin-bottom: 0;
+				&.text-ind {
+					text-indent: 36px; 
+				}
 			}
 			.more {
-				margin-top: 23px;
+				margin-top: 17px;
 				display: block;
 				color: #357bc1;
 				font-family: 'Lato-Bold';
 				text-decoration: underline;
+				font-size: 13px;
 				&:hover {
 					text-decoration: none;
 				}
@@ -528,6 +572,7 @@ header.header {
 				font-size: 26px;
 				font-family: 'Lato-Black';
 				text-align: center;
+				letter-spacing: 0.6px;
 			}
 			.blue-subtitle {
 				font-size: 13px;
@@ -536,7 +581,7 @@ header.header {
 				display: block;
 				margin: auto;
 				text-align: justify;
-				margin-top: 23px;
+				margin-top: 15px;
 				margin-bottom: 33px;
 			}
 			.detailed {
@@ -546,7 +591,7 @@ header.header {
 				text-align: center;
 				background-color: #518bc8;
 				padding: 13px;
-				width: 138px;
+				width: 110px;
 				display: block;
 				margin: auto;
 				border-radius: 23px;
@@ -569,7 +614,7 @@ header.header {
 				background-position: top center; 
 			}
 			.acts {
-				padding-top: 55px;
+				padding-top: 21px;
 				.acts-header {
 					font-family: 'Lato-Black';
 					font-size: 12px;
@@ -578,13 +623,15 @@ header.header {
 					background-color: #357bc1;
 					color: #fff;
 					line-height: 1.7;
-					padding: 20px 0;
+					padding: 11px 0;
 				}
 				.acts-body {
+					padding-top: 10px;
 					.item {
 						display: block;
 						float: none;
 						width: 100%;
+						padding: 7px 0;
 						&:nth-child(odd) {
 							background-color: #fbfbfb
 						}
@@ -616,7 +663,7 @@ header.header {
 			.reg {
 				padding: 0;
 				margin: 0;
-				margin-top: 40px;
+				margin-top: 23px;
 				li {
 					display: inline-block;
 					span {
@@ -665,6 +712,7 @@ footer.footer {
 	background-image: url(../img/footer-background.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
+	margin-top: 20px;
 	.footer-menu {
 		padding: 95px 0;
 		margin: 0;
