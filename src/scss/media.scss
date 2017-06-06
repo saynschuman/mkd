@@ -326,6 +326,9 @@
 }
 
 @media screen and (max-width: 700px)  {
+.documents form input[type="search"] {
+  width: 90%;
+}  
 .partner .contacts li:first-child {
   float: none;
   width: 100%;
